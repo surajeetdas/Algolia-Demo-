@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CA0DC3662AFCC31F71C58B /* Pods_AlgoliaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715C428700E03B1B391BCA73 /* Pods_AlgoliaDemo.framework */; };
+		52707B1F28C08CC0002F622C /* FacetValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52707B1D28C08CC0002F622C /* FacetValueViewController.swift */; };
+		52707B2028C08CC0002F622C /* FacetValueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52707B1E28C08CC0002F622C /* FacetValueViewController.xib */; };
+		52999C1328BCB16A0082BD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52999C1228BCB16A0082BD16 /* AppDelegate.swift */; };
+		52999C1528BCB16A0082BD16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52999C1428BCB16A0082BD16 /* SceneDelegate.swift */; };
+		52999C1C28BCB16B0082BD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52999C1B28BCB16B0082BD16 /* Assets.xcassets */; };
+		52999C1F28BCB16B0082BD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52999C1D28BCB16B0082BD16 /* LaunchScreen.storyboard */; };
+		52999C2828BCB3310082BD16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52999C2628BCB3310082BD16 /* MainViewController.swift */; };
+		52999C2928BCB3310082BD16 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52999C2728BCB3310082BD16 /* MainViewController.xib */; };
+		52B37FB528BF366C006267C7 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B37FB328BF366C006267C7 /* FilterViewController.xib */; };
+		52B37FBE28BF371A006267C7 /* FacetViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B37FBC28BF371A006267C7 /* FacetViewCell.swift */; };
+		52B37FBF28BF371A006267C7 /* FacetViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B37FBD28BF371A006267C7 /* FacetViewCell.xib */; };
+		52B37FC228BF374A006267C7 /* FacetValueViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B37FC028BF374A006267C7 /* FacetValueViewCell.swift */; };
+		52B37FC328BF374A006267C7 /* FacetValueViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B37FC128BF374A006267C7 /* FacetValueViewCell.xib */; };
+		52B37FC928BF504F006267C7 /* FacetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B37FC828BF504F006267C7 /* FacetData.swift */; };
+		52B37FCD28BF8976006267C7 /* FilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B37FCC28BF8976006267C7 /* FilterData.swift */; };
+		52C730FA28C1C991000DAD02 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C730F928C1C991000DAD02 /* FilterViewController.swift */; };
+		52EBB7DC28C7176300442A98 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB7DA28C7176300442A98 /* SortViewController.swift */; };
+		52EBB7DD28C7176300442A98 /* SortViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EBB7DB28C7176300442A98 /* SortViewController.xib */; };
+		52F212F028BDD654006E7B6A /* DecathlonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F212EF28BDD654006E7B6A /* DecathlonDataModel.swift */; };
+		52F212F828BDDB02006E7B6A /* MainViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F212F628BDDB02006E7B6A /* MainViewTableCell.swift */; };
+		52F212F928BDDB02006E7B6A /* MainViewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F212F728BDDB02006E7B6A /* MainViewTableCell.xib */; };
+		52F212FC28BDDBBA006E7B6A /* ClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F212FB28BDDBBA006E7B6A /* ClientConfig.swift */; };
+		52F212FE28BDDD2A006E7B6A /* ConfigConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F212FD28BDDD2A006E7B6A /* ConfigConstants.swift */; };
+		52F2130128BDE1DD006E7B6A /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2130028BDE1DD006E7B6A /* DataRepository.swift */; };
+		52F2135228BE0A66006E7B6A /* AlgoliaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2135128BE0A66006E7B6A /* AlgoliaDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52F2135328BE0A66006E7B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52999C0728BCB16A0082BD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52999C0E28BCB16A0082BD16;
+			remoteInfo = AlgoliaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52707B1D28C08CC0002F622C /* FacetValueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetValueViewController.swift; sourceTree = "<group>"; };
+		52707B1E28C08CC0002F622C /* FacetValueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacetValueViewController.xib; sourceTree = "<group>"; };
+		52999C0F28BCB16A0082BD16 /* AlgoliaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoliaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52999C1228BCB16A0082BD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52999C1428BCB16A0082BD16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52999C1B28BCB16B0082BD16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52999C1E28BCB16B0082BD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52999C2028BCB16B0082BD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52999C2628BCB3310082BD16 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		52999C2728BCB3310082BD16 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		52B37FB328BF366C006267C7 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		52B37FBC28BF371A006267C7 /* FacetViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetViewCell.swift; sourceTree = "<group>"; };
+		52B37FBD28BF371A006267C7 /* FacetViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacetViewCell.xib; sourceTree = "<group>"; };
+		52B37FC028BF374A006267C7 /* FacetValueViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetValueViewCell.swift; sourceTree = "<group>"; };
+		52B37FC128BF374A006267C7 /* FacetValueViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacetValueViewCell.xib; sourceTree = "<group>"; };
+		52B37FC828BF504F006267C7 /* FacetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetData.swift; sourceTree = "<group>"; };
+		52B37FCC28BF8976006267C7 /* FilterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterData.swift; sourceTree = "<group>"; };
+		52C730F928C1C991000DAD02 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		52EBB7DA28C7176300442A98 /* SortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
+		52EBB7DB28C7176300442A98 /* SortViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortViewController.xib; sourceTree = "<group>"; };
+		52F212EF28BDD654006E7B6A /* DecathlonDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecathlonDataModel.swift; sourceTree = "<group>"; };
+		52F212F628BDDB02006E7B6A /* MainViewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTableCell.swift; sourceTree = "<group>"; };
+		52F212F728BDDB02006E7B6A /* MainViewTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewTableCell.xib; sourceTree = "<group>"; };
+		52F212FB28BDDBBA006E7B6A /* ClientConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientConfig.swift; sourceTree = "<group>"; };
+		52F212FD28BDDD2A006E7B6A /* ConfigConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigConstants.swift; sourceTree = "<group>"; };
+		52F2130028BDE1DD006E7B6A /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		52F2134F28BE0A66006E7B6A /* AlgoliaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoliaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F2135128BE0A66006E7B6A /* AlgoliaDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoliaDemoTests.swift; sourceTree = "<group>"; };
+		715C428700E03B1B391BCA73 /* Pods_AlgoliaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgoliaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984B9F8CB53E2E34160649CC /* Pods-AlgoliaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoliaDemo.release.xcconfig"; path = "Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DF572B369B6199CDE0F160C7 /* Pods-AlgoliaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoliaDemo.debug.xcconfig"; path = "Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52999C0C28BCB16A0082BD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CA0DC3662AFCC31F71C58B /* Pods_AlgoliaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F2134C28BE0A66006E7B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CFC8CEF0274F61254847C0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF572B369B6199CDE0F160C7 /* Pods-AlgoliaDemo.debug.xcconfig */,
+				984B9F8CB53E2E34160649CC /* Pods-AlgoliaDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52999C0628BCB16A0082BD16 = {
+			isa = PBXGroup;
+			children = (
+				52999C1128BCB16A0082BD16 /* AlgoliaDemo */,
+				52F2135028BE0A66006E7B6A /* AlgoliaDemoTests */,
+				52999C1028BCB16A0082BD16 /* Products */,
+				2CFC8CEF0274F61254847C0E /* Pods */,
+				B80FB0805F1267E85751DD7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52999C1028BCB16A0082BD16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52999C0F28BCB16A0082BD16 /* AlgoliaDemo.app */,
+				52F2134F28BE0A66006E7B6A /* AlgoliaDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52999C1128BCB16A0082BD16 /* AlgoliaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB7D928C7171600442A98 /* SortView */,
+				52F212FF28BDE07C006E7B6A /* DataRepo */,
+				52F212FA28BDDB9F006E7B6A /* AlgoliaClient */,
+				52F212F328BDD7BA006E7B6A /* FilterView */,
+				52F212F128BDD798006E7B6A /* MainView */,
+				52F212EE28BDD633006E7B6A /* Models */,
+				52999C1228BCB16A0082BD16 /* AppDelegate.swift */,
+				52999C1428BCB16A0082BD16 /* SceneDelegate.swift */,
+				52999C1B28BCB16B0082BD16 /* Assets.xcassets */,
+				52999C1D28BCB16B0082BD16 /* LaunchScreen.storyboard */,
+				52999C2028BCB16B0082BD16 /* Info.plist */,
+			);
+			path = AlgoliaDemo;
+			sourceTree = "<group>";
+		};
+		52B37FB628BF36A5006267C7 /* Facets */ = {
+			isa = PBXGroup;
+			children = (
+				52B37FBC28BF371A006267C7 /* FacetViewCell.swift */,
+				52B37FBD28BF371A006267C7 /* FacetViewCell.xib */,
+			);
+			path = Facets;
+			sourceTree = "<group>";
+		};
+		52B37FB728BF36B6006267C7 /* FacetValues */ = {
+			isa = PBXGroup;
+			children = (
+				52B37FC028BF374A006267C7 /* FacetValueViewCell.swift */,
+				52B37FC128BF374A006267C7 /* FacetValueViewCell.xib */,
+				52707B1D28C08CC0002F622C /* FacetValueViewController.swift */,
+				52707B1E28C08CC0002F622C /* FacetValueViewController.xib */,
+			);
+			path = FacetValues;
+			sourceTree = "<group>";
+		};
+		52EBB7D928C7171600442A98 /* SortView */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB7DA28C7176300442A98 /* SortViewController.swift */,
+				52EBB7DB28C7176300442A98 /* SortViewController.xib */,
+			);
+			path = SortView;
+			sourceTree = "<group>";
+		};
+		52F212EE28BDD633006E7B6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52F212EF28BDD654006E7B6A /* DecathlonDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52F212F128BDD798006E7B6A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				52999C2628BCB3310082BD16 /* MainViewController.swift */,
+				52999C2728BCB3310082BD16 /* MainViewController.xib */,
+				52F212F628BDDB02006E7B6A /* MainViewTableCell.swift */,
+				52F212F728BDDB02006E7B6A /* MainViewTableCell.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		52F212F328BDD7BA006E7B6A /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				52B37FB728BF36B6006267C7 /* FacetValues */,
+				52B37FB628BF36A5006267C7 /* Facets */,
+				52B37FB328BF366C006267C7 /* FilterViewController.xib */,
+				52C730F928C1C991000DAD02 /* FilterViewController.swift */,
+			);
+			path = FilterView;
+			sourceTree = "<group>";
+		};
+		52F212FA28BDDB9F006E7B6A /* AlgoliaClient */ = {
+			isa = PBXGroup;
+			children = (
+				52F212FB28BDDBBA006E7B6A /* ClientConfig.swift */,
+				52F212FD28BDDD2A006E7B6A /* ConfigConstants.swift */,
+			);
+			path = AlgoliaClient;
+			sourceTree = "<group>";
+		};
+		52F212FF28BDE07C006E7B6A /* DataRepo */ = {
+			isa = PBXGroup;
+			children = (
+				52F2130028BDE1DD006E7B6A /* DataRepository.swift */,
+				52B37FC828BF504F006267C7 /* FacetData.swift */,
+				52B37FCC28BF8976006267C7 /* FilterData.swift */,
+			);
+			path = DataRepo;
+			sourceTree = "<group>";
+		};
+		52F2135028BE0A66006E7B6A /* AlgoliaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52F2135128BE0A66006E7B6A /* AlgoliaDemoTests.swift */,
+			);
+			path = AlgoliaDemoTests;
+			sourceTree = "<group>";
+		};
+		B80FB0805F1267E85751DD7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715C428700E03B1B391BCA73 /* Pods_AlgoliaDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52999C0E28BCB16A0082BD16 /* AlgoliaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52999C2328BCB16B0082BD16 /* Build configuration list for PBXNativeTarget "AlgoliaDemo" */;
+			buildPhases = (
+				C977FCB66938335BFE4B092C /* [CP] Check Pods Manifest.lock */,
+				52999C0B28BCB16A0082BD16 /* Sources */,
+				52999C0C28BCB16A0082BD16 /* Frameworks */,
+				52999C0D28BCB16A0082BD16 /* Resources */,
+				AA2D3F102EE32D0B0E092147 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoliaDemo;
+			productName = AlgoliaDemo;
+			productReference = 52999C0F28BCB16A0082BD16 /* AlgoliaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52F2134E28BE0A66006E7B6A /* AlgoliaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F2135528BE0A66006E7B6A /* Build configuration list for PBXNativeTarget "AlgoliaDemoTests" */;
+			buildPhases = (
+				52F2134B28BE0A66006E7B6A /* Sources */,
+				52F2134C28BE0A66006E7B6A /* Frameworks */,
+				52F2134D28BE0A66006E7B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F2135428BE0A66006E7B6A /* PBXTargetDependency */,
+			);
+			name = AlgoliaDemoTests;
+			productName = AlgoliaDemoTests;
+			productReference = 52F2134F28BE0A66006E7B6A /* AlgoliaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52999C0728BCB16A0082BD16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					52999C0E28BCB16A0082BD16 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					52F2134E28BE0A66006E7B6A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 52999C0E28BCB16A0082BD16;
+					};
+				};
+			};
+			buildConfigurationList = 52999C0A28BCB16A0082BD16 /* Build configuration list for PBXProject "AlgoliaDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52999C0628BCB16A0082BD16;
+			productRefGroup = 52999C1028BCB16A0082BD16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52999C0E28BCB16A0082BD16 /* AlgoliaDemo */,
+				52F2134E28BE0A66006E7B6A /* AlgoliaDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52999C0D28BCB16A0082BD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B37FB528BF366C006267C7 /* FilterViewController.xib in Resources */,
+				52999C1F28BCB16B0082BD16 /* LaunchScreen.storyboard in Resources */,
+				52999C2928BCB3310082BD16 /* MainViewController.xib in Resources */,
+				52707B2028C08CC0002F622C /* FacetValueViewController.xib in Resources */,
+				52B37FBF28BF371A006267C7 /* FacetViewCell.xib in Resources */,
+				52F212F928BDDB02006E7B6A /* MainViewTableCell.xib in Resources */,
+				52B37FC328BF374A006267C7 /* FacetValueViewCell.xib in Resources */,
+				52999C1C28BCB16B0082BD16 /* Assets.xcassets in Resources */,
+				52EBB7DD28C7176300442A98 /* SortViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F2134D28BE0A66006E7B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA2D3F102EE32D0B0E092147 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C977FCB66938335BFE4B092C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlgoliaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52999C0B28BCB16A0082BD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B37FBE28BF371A006267C7 /* FacetViewCell.swift in Sources */,
+				52B37FC928BF504F006267C7 /* FacetData.swift in Sources */,
+				52999C2828BCB3310082BD16 /* MainViewController.swift in Sources */,
+				52B37FC228BF374A006267C7 /* FacetValueViewCell.swift in Sources */,
+				52F2130128BDE1DD006E7B6A /* DataRepository.swift in Sources */,
+				52EBB7DC28C7176300442A98 /* SortViewController.swift in Sources */,
+				52707B1F28C08CC0002F622C /* FacetValueViewController.swift in Sources */,
+				52F212FC28BDDBBA006E7B6A /* ClientConfig.swift in Sources */,
+				52F212FE28BDDD2A006E7B6A /* ConfigConstants.swift in Sources */,
+				52999C1328BCB16A0082BD16 /* AppDelegate.swift in Sources */,
+				52C730FA28C1C991000DAD02 /* FilterViewController.swift in Sources */,
+				52B37FCD28BF8976006267C7 /* FilterData.swift in Sources */,
+				52F212F828BDDB02006E7B6A /* MainViewTableCell.swift in Sources */,
+				52F212F028BDD654006E7B6A /* DecathlonDataModel.swift in Sources */,
+				52999C1528BCB16A0082BD16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F2134B28BE0A66006E7B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F2135228BE0A66006E7B6A /* AlgoliaDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52F2135428BE0A66006E7B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52999C0E28BCB16A0082BD16 /* AlgoliaDemo */;
+			targetProxy = 52F2135328BE0A66006E7B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52999C1D28BCB16B0082BD16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52999C1E28BCB16B0082BD16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52999C2128BCB16B0082BD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52999C2228BCB16B0082BD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52999C2428BCB16B0082BD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF572B369B6199CDE0F160C7 /* Pods-AlgoliaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlgoliaDemo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = MainViewController;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.das.surajeet.algolia.AlgoliaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52999C2528BCB16B0082BD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984B9F8CB53E2E34160649CC /* Pods-AlgoliaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlgoliaDemo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = MainViewController;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.das.surajeet.algolia.AlgoliaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52F2135628BE0A66006E7B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.das.surajeet.algolia.AlgoliaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgoliaDemo.app/AlgoliaDemo";
+			};
+			name = Debug;
+		};
+		52F2135728BE0A66006E7B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.das.surajeet.algolia.AlgoliaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgoliaDemo.app/AlgoliaDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52999C0A28BCB16A0082BD16 /* Build configuration list for PBXProject "AlgoliaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52999C2128BCB16B0082BD16 /* Debug */,
+				52999C2228BCB16B0082BD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52999C2328BCB16B0082BD16 /* Build configuration list for PBXNativeTarget "AlgoliaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52999C2428BCB16B0082BD16 /* Debug */,
+				52999C2528BCB16B0082BD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F2135528BE0A66006E7B6A /* Build configuration list for PBXNativeTarget "AlgoliaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F2135628BE0A66006E7B6A /* Debug */,
+				52F2135728BE0A66006E7B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52999C0728BCB16A0082BD16 /* Project object */;
+}
